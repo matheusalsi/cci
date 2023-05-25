@@ -1,0 +1,86 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version 6.1.8-64b 10/01/2018 19:51 (ip-172-18-22-52) $
+          : sub-version  IC6.1.8-64b.83 
+Started at: 24-Sep-2022  04:09:14
+User Name : matheus.almeida
+Host Name : pgmicro04
+Directory : /home/INF01185/matheus.almeida/cci
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+
+                       Individual Cell Statistics - Basic Objects
+---------------------------------------------------------------------------------------------------------------------------------------
+Library/Cell/View               Instance Array   Polygon  Rect   Path   PathSeg   Text   TextDisplay   Line   Dot   Arc   Donut   Ellipse 
+---------------------------------------------------------------------------------------------------------------------------------------
+tsmc18/M1_NACTIVE/layout        0        0       0        15     0      0         0      0             0      0     0     0       0       
+tsmc18/pmos2v/layout            0        0       0        15     0      0         7      0             0      0     0     0       0       
+tsmc18/M1_PACTIVE/layout        0        0       0        15     0      0         0      0             0      0     0     0       0       
+tsmc18/M1_POLY1/layout          0        0       0        3      0      0         0      0             0      0     0     0       0       
+tsmc18/pmos2v/layout            0        0       0        22     0      0         7      0             0      0     0     0       0       
+CCI/NADN2/layout                4        0       0        10     0      13        5      0             0      0     0     0       0       
+tsmc18/nmos2v/layout            0        0       0        13     0      0         7      0             0      0     0     0       0       
+tsmc18/nmos2v/layout            0        0       0        13     0      0         7      0             0      0     0     0       0       
+---------------------------------------------------------------------------------------------------------------------------------------
+
+                       Individual Cell Statistics - Advanced Objects
+---------------------------------------------------------------------------------------------------------------------------------------
+Library/Cell/View               PRBdy    OtherBdy   AreaBlkg   LayerBlkg  AreaHalo   Row   Marker   CustVia   StdVia    CdsGenVia
+---------------------------------------------------------------------------------------------------------------------------------------
+tsmc18/M1_NACTIVE/layout        0        0          0          0          0          0     0        0         0         0        
+tsmc18/pmos2v/layout            0        0          0          0          0          0     0        0         0         0        
+tsmc18/M1_PACTIVE/layout        0        0          0          0          0          0     0        0         0         0        
+tsmc18/M1_POLY1/layout          0        0          0          0          0          0     0        0         0         0        
+tsmc18/pmos2v/layout            0        0          0          0          0          0     0        0         0         0        
+CCI/NADN2/layout                0        0          0          0          0          0     0        0         4         0        
+tsmc18/nmos2v/layout            0        0          0          0          0          0     0        0         0         0        
+tsmc18/nmos2v/layout            0        0          0          0          0          0     0        0         0         0        
+---------------------------------------------------------------------------------------------------------------------------------------
+
+                       Statistics of Layers 
+---------------------------------------------------------------------------------------------------------------------------------------
+Cadence         Cadence         Stream  Stream   
+Layer           Purpose         Layer   Datatype  Polygon  Rect     Path     Text     TextDisplay   Line Dot Arc Donut Ellipse Pathseg
+---------------------------------------------------------------------------------------------------------------------------------------
+IP              drawing         63      63        0        0        0        28       0             0    0   0   0     0      0      
+DIFF            drawing         3       0         0        14       0        0        0             0    0   0   0     0      0      
+NIMP            drawing         8       0         0        3        0        0        0             0    0   0   0     0      0      
+WELLBODY        drawing         103     0         0        2        0        0        0             0    0   0   0     0      0      
+POLY1           drawing         13      0         0        13       0        0        0             0    0   0   0     0      6      
+METAL1          drawing         16      0         0        12       0        0        0             0    0   0   0     0      7      
+METAL1          pin             40      0         0        5        0        5        0             0    0   0   0     0      0      
+NWELL           drawing         2       0         0        3        0        0        0             0    0   0   0     0      0      
+CONT            drawing         15      0         0        51       0        0        0             0    0   0   0     0      0      
+PIMP            drawing         7       0         0        3        0        0        0             0    0   0   0     0      0      
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Summary of Objects Translated:
+	Scalar Instances:		4
+	Array Instances:		0
+	Polygons:			0
+	Paths:				0
+	Rectangles:			106
+	Lines:				0
+	Arcs:				0
+	Donuts:				0
+	Dots:				0
+	Ellipses:			0
+	Boundaries:			0
+	Area Blockages:			0
+	Layer Blockages:		0
+	Area Halos:			0
+	Markers:			0
+	Rows:				0
+	Standard Vias:			4
+	Custom Vias:			0
+	CdsGen Vias:			0
+	Pathsegs:			13
+	Text:				33
+	TextDisplay:		0
+	Cells:				8
+Design Libraries: 
+
+DEFINE CCI	/home/INF01185/matheus.almeida/cci/CCI
+DEFINE tsmc18	/pdk/tsmc/TSMC180/180/CMOS/G/IO3.3V/pdk/T-018-CM-SP-018-K3_1_0a_bsim4.5_pdk_IC61_20100730/tsmc180_pdk/tsmc18

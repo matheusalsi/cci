@@ -1,0 +1,31 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  CCI
+* Top Cell Name: NADN2
+* View Name:     schematic
+* Netlisted on:  Sep 24 02:13:29 2022
+************************************************************************
+
+.INCLUDE  /pdk/tsmc/TSMC180/180/CMOS/G/IO3.3V/pdk/T-018-CM-SP-018-K3_1_0a_bsim4.5_pdk_IC61_20100730/tsmc180_pdk/tsmc18/../Calibre/lvs/source.added
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: CCI
+* Cell Name:    NADN2
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT NADN2 A B GND OUT VDD
+*.PININFO A:I B:I OUT:O GND:B VDD:B
+MM0 OUT A VDD VDD P l=180.0n w=3u m=1
+MM1 OUT B VDD VDD P l=180.0n w=3u m=1
+MM11 net7 B GND GND N l=180n w=2u m=1
+MM12 OUT A net7 GND N l=180n w=2u m=1
+.ENDS
+

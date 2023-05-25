@@ -1,0 +1,37 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  CCI
+* Top Cell Name: LATCH
+* View Name:     schematic
+* Netlisted on:  Sep 24 02:29:32 2022
+************************************************************************
+
+.INCLUDE  /pdk/tsmc/TSMC180/180/CMOS/G/IO3.3V/pdk/T-018-CM-SP-018-K3_1_0a_bsim4.5_pdk_IC61_20100730/tsmc180_pdk/tsmc18/../Calibre/lvs/source.added
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: CCI
+* Cell Name:    LATCH
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT LATCH CLK D GND NOTCLK Q VDD
+*.PININFO CLK:I D:I NOTCLK:I Q:O GND:B VDD:B
+MM21 net19 NOTCLK net024 VDD P l=180.0n w=3u m=1
+MM13 Q net19 VDD VDD P l=180.0n w=3u m=1
+MM20 net024 D VDD VDD P l=180.0n w=3u m=1
+MM15 net027 Q VDD VDD P l=180.0n w=3u m=1
+MM14 net19 CLK net027 VDD P l=180.0n w=3u m=1
+MM11 net19 CLK net026 GND N l=180.0n w=1.5u m=1
+MM17 Q net19 GND GND N l=180.0n w=1.5u m=1
+MM16 net026 D GND GND N l=180.0n w=1.5u m=1
+MM19 net19 NOTCLK net025 GND N l=180.0n w=1.5u m=1
+MM18 net025 Q GND GND N l=180.0n w=1.5u m=1
+.ENDS
+

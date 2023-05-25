@@ -1,0 +1,36 @@
+// Support for Calibre applications running on the RHEL 5 operating system is 
+// extremely limited with the Calibre 2019.1-2020.4 releases. RHEL 5 support is
+// fully discontinued as of the Calibre 2021.1 release. For more information, see:
+//     http://calibre.mentorcloudservices.com/docs/Calibre_OS_Roadmap.htm
+// To disable this message, use "setenv CALIBRE_DISABLE_RHEL5_WARNING 1"
+Warning: <unknown error #> library analogLib from /pdk/tsmc/TSMC180/180/CMOS/G/IO3.3V/pdk/T-018-CM-SP-018-K3_1_0a_bsim4.5_pdk_IC61_20100730/tsmc180_pdk/cds.lib line 13, redefines
+    library analogLib from same file line 1 defined earlier. on line 13 of /pdk/tsmc/TSMC180/180/CMOS/G/IO3.3V/pdk/T-018-CM-SP-018-K3_1_0a_bsim4.5_pdk_IC61_20100730/tsmc180_pdk/cds.lib
+INFO: cds.lib has been converted to lib.defs /var/tmp/21957_result_lib.defs
+RUNNING PEX back-annotation...
+//  Calibre FDI  v2018.4_34.26 Mon Dec 3 14:31:02 PST 2018
+//
+//                  Copyright Mentor Graphics Corporation 2008-2018
+//                             All Rights Reserved.
+//         THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+//             WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION
+//               OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+//
+//  Mentor Graphics software executing under x86-64 Linux
+//  64 bit virtual addressing enabled
+//
+//         This software is in pre-production form and is considered to be
+//         beta code that is subject to the terms of the current Mentor
+//         Graphics End-User License Agreement or your signed agreement
+//         with Mentor Graphics that contains beta terms, whichever applies.
+//
+//  Running on Linux pgmicro04 3.10.0-1160.49.1.el7.x86_64 #1 SMP Tue Nov 30 15:51:32 UTC 2021 x86_64
+INFO: Parsing command line arguments...
+INFO: License checked out successfully for calibreqdb.
+INFO: Parsing cellmap file...
+INFO: Executing back annotation...
+INFO: Creating new view: calibre in library: CCI cell: MirrorAdder.
+WARNING: [FDI3022] Not creating terminal CIN in (MirrorAdder calibre) since matching terminal was not found on symbol.
+WARNING: [FDI3022] Not creating terminal COUT in (MirrorAdder calibre) since matching terminal was not found on symbol.
+INFO: Back annotation is completed.
+Calibre View generation completed with 2 WARNINGs and 0 ERRORs.
+Please consult the CIW transcript for messages.

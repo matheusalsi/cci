@@ -1,0 +1,8 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/INV3.dv
+dv_start notcompared                              
+dv_global
+dv_discrep 1 {Error: Subckt not found}
+dv_discrep_line {Subcircuit "INV3" not found}
+dv_discrep_line {}
+dv_end

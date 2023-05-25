@@ -1,0 +1,2 @@
+INCLUDE /pdk/tsmc/TSMC180/180/CMOS/G/IO3.3V/pdk/T-018-CM-SP-018-K3_1_0a_bsim4.5_pdk_IC61_20100730/tsmc180_pdk/cds.lib
+DEFINE CCI /home/INF01185/matheus.almeida/cci/CCI

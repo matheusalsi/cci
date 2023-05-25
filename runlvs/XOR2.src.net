@@ -1,0 +1,39 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  CCI
+* Top Cell Name: XOR2
+* View Name:     schematic
+* Netlisted on:  Sep 25 03:06:30 2022
+************************************************************************
+
+.INCLUDE  /pdk/tsmc/TSMC180/180/CMOS/G/IO3.3V/pdk/T-018-CM-SP-018-K3_1_0a_bsim4.5_pdk_IC61_20100730/tsmc180_pdk/tsmc18/../Calibre/lvs/source.added
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: CCI
+* Cell Name:    XOR2
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT XOR2 A B GND OUT VDD
+*.PININFO A:I B:I OUT:O GND:B VDD:B
+MM12 !B B VDD VDD P l=180.0n w=4u m=1
+MM11 !A A VDD VDD P l=180.0n w=4u m=1
+MM3 OUT A net028 VDD P l=180.0n w=4u m=1
+MM2 net028 !B VDD VDD P l=180.0n w=4u m=1
+MM1 OUT B net033 VDD P l=180.0n w=4u m=1
+MM0 net033 !A VDD VDD P l=180.0n w=4u m=1
+MM13 !B B GND GND N l=180.0n w=2u m=1
+MM14 !A A GND GND N l=180.0n w=2u m=1
+MM7 net29 !B GND GND N l=180.0n w=2u m=1
+MM6 OUT !A net29 GND N l=180.0n w=2u m=1
+MM5 net030 B GND GND N l=180.0n w=2u m=1
+MM4 OUT A net030 GND N l=180.0n w=2u m=1
+.ENDS
+

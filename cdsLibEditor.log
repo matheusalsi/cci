@@ -1,0 +1,15 @@
+\o Program:		@(#)$CDS: cdsLibEditor version 6.1.8 - CAT37 09/24/2018 21:03 (ip-172-18-22-224) $
+\o Sub version:		sub-version  p015 
+\o Arguments:		-cdslib /home/INF01185/matheus.almeida/cci/cds.lib -mpssession virtuoso47512 -mpshost pgmicro04 
+\o Working Directory:	pgmicro04:/home/INF01185/matheus.almeida/cci
+\o 64-bit offsets
+\a nrSetWindowVisibility(cdsLibEditor "show")
+\o Qt version: 		5.9.1
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrListItemAction(cdsLibEditor->mainTable 0 0)
+\o Active cell: 0 0 "functional"
+\a nrResizeWindow(cdsLibEditor list(38 66 656 400))
+\a nrResizeWindow(cdsLibEditor list(558 291 656 400))
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrResizeWindow(cdsLibEditor list(418 269 656 400))
+\a exit(0)

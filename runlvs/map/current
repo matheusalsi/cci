@@ -1,0 +1,16 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "4bitMirrorAdder"
+  repList "auCdl schematic"
+  stopList "auCdl"
+  hierDelim "."
+  netlistDir "/home/INF01185/matheus.almeida/cci/runlvs"
+ )
+( model
+( "CCI/4bitMirrorAdder/schematic" "4bitMirrorAdder" )
+( "CCI/MirrorAdder/schematic" "MirrorAdder" )
+ )
+( "4bitMirrorAdder" "ihnl/cds1/map" )
+( "MirrorAdder" "ihnl/cds0/map" )
+ )

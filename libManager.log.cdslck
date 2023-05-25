@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      matheus.almeida
+HostName                       pgmicro04
+ProcessIdentifier              14282
+ProcessCreationTime_UTC        1664725397
+ProcessCreationTime_Readable   Sun Oct  2 11:43:17 2022 EDT
+AppIdentifier                  /tools/cadence/rhel5/IC_06.18.000/tools/dfII/bin/64bit/libManager
+OSType                         lnx86
+ReasonForPlacingEditLock       log file
+FilePathUsedToEditLock         /home/INF01185/matheus.almeida/cci/libManager.log
+TimeEditLocked                 Sun Oct  2 11:43:17 2022 EDT

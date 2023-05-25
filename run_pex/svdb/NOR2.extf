@@ -1,0 +1,10 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1664017280 1664017282
+lvs_ExtOutFile RUNDIR /home/INF01185/matheus.almeida/cci/run_pex
+lvs_ExtOutFile RULES_FILE /home/INF01185/matheus.almeida/cci/run_pex/_calibre.rcx_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /home/INF01185/matheus.almeida/cci/run_pex/svdb/NOR2.sp
+lvs_ExtOutFile EXTRACTION_REPORT NOR2.lvs.report.ext
+lvs_ExtOutFile LAYOUT_PDSP {  svdb/NOR2.pdsp }

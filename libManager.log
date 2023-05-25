@@ -1,0 +1,224 @@
+\o Program:		@(#)$CDS: libManager version 6.1.8 - CAT37 09/24/2018 21:00 (ip-172-18-22-224) $
+\o Sub version:		sub-version  p015 
+\o Arguments:		-mpssession virtuoso11067 -mpshost pgmicro04 
+\o Working Directory:	pgmicro04:/home/INF01185/matheus.almeida/cci
+\o 64-bit offsets
+\o changeWorkingDir("/home/INF01185/matheus.almeida/cci") unnecessary.
+\o ddSetForcedLib("") unnecessary.
+\a nrSetWindowVisibility(cdsLibManager "show")
+\o MPS service: map window
+\o Qt version: 		5.9.1
+\o Log file is "/home/INF01185/matheus.almeida/cci/libManager.log".
+\o Opening libManager window.
+\o Library Manager customization server connected.
+\a nrResizeWindow(cdsLibManager list(681 112 803 587))
+\w Warning: LIB analogLib from File /pdk/tsmc/TSMC180/180/CMOS/G/IO3.3V/pdk/T-018-CM-SP-018-K3_1_0a_bsim4.5_pdk_IC61_20100730/tsmc180_pdk/cds.lib Line 13 redefines
+\w LIB analogLib from the same file (defined earlier.)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = "CCI"
+\a cdsLibManager->libLineEdit->value = "CCI"
+\a cdsLibManager->cellListBox->value = "MirrorAdder4b_tran"
+\a cdsLibManager->cellLineEdit->value = "MirrorAdder4b_tran"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "MirrorAdder4b_tran"
+\a cdsLibManager->cellLineEdit->value = "MirrorAdder4b_tran"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 10 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\w Warning: LIB analogLib from File /pdk/tsmc/TSMC180/180/CMOS/G/IO3.3V/pdk/T-018-CM-SP-018-K3_1_0a_bsim4.5_pdk_IC61_20100730/tsmc180_pdk/cds.lib Line 13 redefines
+\w LIB analogLib from the same file (defined earlier.)
+\a cdsLibManager->libListBox->value = "CCI"
+\a cdsLibManager->libLineEdit->value = "CCI"
+\a cdsLibManager->cellListBox->value = "MirrorAdder4b_tran"
+\a cdsLibManager->cellLineEdit->value = "MirrorAdder4b_tran"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: LIB analogLib from File /pdk/tsmc/TSMC180/180/CMOS/G/IO3.3V/pdk/T-018-CM-SP-018-K3_1_0a_bsim4.5_pdk_IC61_20100730/tsmc180_pdk/cds.lib Line 13 redefines
+\w LIB analogLib from the same file (defined earlier.)
+\a cdsLibManager->libListBox->value = "CCI"
+\a cdsLibManager->libLineEdit->value = "CCI"
+\a cdsLibManager->cellListBox->value = "MirrorAdder4b_tran"
+\a cdsLibManager->cellLineEdit->value = "MirrorAdder4b_tran"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->copySimpleButton->value = t
+\a copyViewForm->SkipLibrariesEdit->value = "*"
+\a copyViewForm->SkipLibrariesEdit->value = "*"
+\a copyViewForm->CopyFromLibrary->value = "CCI"
+\a copyViewForm->CopyToLibrary->value = "CCI"
+\a copyViewForm->CopyFromCell->value = "MirrorAdder4b_tran"
+\a copyViewForm->CopyFromView->value = "schematic"
+\a copyViewForm->CopyToCell->value = "MirrorAdder4b_tran"
+\a copyViewForm->CopyToView->value = "schematic"
+\a copyViewForm->ViewsToCopy->value = "schematic"
+\a copyViewForm->SkipLibrariesEdit->value = ""
+\a copyViewForm->SkipLibrariesEdit->value = "US_8ths ahdlLib ambit analogLib basic cdsDefTechLib connectLib functional ieee sample sbaLib std synopsys tsmc18"
+\a nrSetWindowVisibility(copyViewForm "show")
+\a nrSetCurrentWindow(copyViewForm)
+\a nrResizeWindow(copyViewForm list(838 67 468 671))
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(copyViewForm list(838 -7 468 671))
+\a cdsLibManager->FileNewCVButton->value = t
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = "config"
+\a cdsLibManager->viewLineEdit->value = "config"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "MirrorAdder"
+\a cdsLibManager->cellLineEdit->value = "MirrorAdder"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "MirrorAdder1b_tran"
+\a cdsLibManager->cellLineEdit->value = "MirrorAdder1b_tran"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "MirrorAdder"
+\a cdsLibManager->cellLineEdit->value = "MirrorAdder"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "MirrorAdder4b_tran"
+\a cdsLibManager->cellLineEdit->value = "MirrorAdder4b_tran"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "config"
+\a cdsLibManager->viewLineEdit->value = "config"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "MirrorAdder1b_tran"
+\a cdsLibManager->cellLineEdit->value = "MirrorAdder1b_tran"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "MirrorAdder"
+\a cdsLibManager->cellLineEdit->value = "MirrorAdder"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "MirrorAdder4b_tran"
+\a cdsLibManager->cellLineEdit->value = "MirrorAdder4b_tran"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "4bitMirrorAdder"
+\a cdsLibManager->cellLineEdit->value = "4bitMirrorAdder"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = "calibre"
+\a cdsLibManager->viewLineEdit->value = "calibre"
+\a lmgrLogShowPopup("mainListPopup2" 53 17 2 "calibre")
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a lmgrLogShowPopup("mainListPopup2" 36 25 2 "layout")
+\a cdsLibManager->editPropertiesButton->value = t
+\o MPS request: edit property
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "MirrorAdder1b_tran"
+\a cdsLibManager->cellLineEdit->value = "MirrorAdder1b_tran"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->FileNewCVButton->value = t
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = "config"
+\a cdsLibManager->viewLineEdit->value = "config"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "MirrorAdder4b_tran"
+\a cdsLibManager->cellLineEdit->value = "MirrorAdder4b_tran"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a _lmgrCloseIconify("cdsLibManager" 1)

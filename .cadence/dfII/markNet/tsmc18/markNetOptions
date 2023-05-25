@@ -1,0 +1,15 @@
+# Do not remove or change these header lines.
+# markNetOptions file version 1.0
+viaLayers(
+METAL5 VICO MICO t
+METAL5 VIA56 METAL6 t
+METAL4 VIA45 METAL5 t
+METAL3 VIA34 METAL4 t
+METAL2 VIA23 METAL3 t
+METAL1 VIA12 METAL2 t
+DIFF CONT METAL1 t
+POLY1 CONT METAL1 t
+)
+excludePurposes(
+annotate boundary error flight label warning
+)

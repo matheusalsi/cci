@@ -1,0 +1,142 @@
+
+*** Checking layout cellview 'CCI/LATCH/layout' against source cellview 'CCI/LATCH/schematic'. - Fri Sep 23 22:33:43 2022 ***
+
+INFO (LX-1005): Parameter 'ad' is set to '1.44p' on schematic instance 'M14'
+but is '180f' on layout instance 'M14'.
+INFO (LX-1005): Parameter 'ad' is set to '1.44p' on schematic instance 'M15'
+but is '375f' on layout instance 'M15'.
+INFO (LX-1005): Parameter 'ad' is set to '1.44p' on schematic instance 'M20'
+but is '375f' on layout instance 'M20'.
+INFO (LX-1005): Parameter 'ad' is set to '720f' on schematic instance 'M11'
+but is '90f' on layout instance 'M11'.
+INFO (LX-1005): Parameter 'ad' is set to '720f' on schematic instance 'M16'
+but is '187.5f' on layout instance 'M16'.
+INFO (LX-1005): Parameter 'ad' is set to '720f' on schematic instance 'M18'
+but is '187.5f' on layout instance 'M18'.
+INFO (LX-1005): Parameter 'as' is set to '1.44p' on schematic instance 'M14'
+but is '375f' on layout instance 'M14'.
+INFO (LX-1005): Parameter 'as' is set to '1.44p' on schematic instance 'M15'
+but is '180f' on layout instance 'M15'.
+INFO (LX-1005): Parameter 'as' is set to '1.44p' on schematic instance 'M21'
+but is '375f' on layout instance 'M21'.
+INFO (LX-1005): Parameter 'as' is set to '720f' on schematic instance 'M11'
+but is '187.5f' on layout instance 'M11'.
+INFO (LX-1005): Parameter 'as' is set to '720f' on schematic instance 'M18'
+but is '90f' on layout instance 'M18'.
+INFO (LX-1005): Parameter 'as' is set to '720f' on schematic instance 'M19'
+but is '187.5f' on layout instance 'M19'.
+INFO (LX-1005): Parameter 'leftShape' is set to 'normal' on schematic instance 'M11'
+but is 'same' on layout instance 'M11'.
+INFO (LX-1005): Parameter 'leftShape' is set to 'normal' on schematic instance 'M13'
+but is 'largeExt' on layout instance 'M13'.
+INFO (LX-1005): Parameter 'leftShape' is set to 'normal' on schematic instance 'M14'
+but is 'same' on layout instance 'M14'.
+INFO (LX-1005): Parameter 'leftShape' is set to 'normal' on schematic instance 'M15'
+but is 'sameExt' on layout instance 'M15'.
+INFO (LX-1005): Parameter 'leftShape' is set to 'normal' on schematic instance 'M17'
+but is 'largeExt' on layout instance 'M17'.
+INFO (LX-1005): Parameter 'leftShape' is set to 'normal' on schematic instance 'M18'
+but is 'sameExt' on layout instance 'M18'.
+INFO (LX-1005): Parameter 'leftShape' is set to 'normal' on schematic instance 'M19'
+but is 'same' on layout instance 'M19'.
+INFO (LX-1005): Parameter 'leftShape' is set to 'normal' on schematic instance 'M21'
+but is 'same' on layout instance 'M21'.
+INFO (LX-1005): Parameter 'nrd' is set to '0.09' on schematic instance 'M14'
+but is '0.02' on layout instance 'M14'.
+INFO (LX-1005): Parameter 'nrd' is set to '0.09' on schematic instance 'M15'
+but is '0.0416667' on layout instance 'M15'.
+INFO (LX-1005): Parameter 'nrd' is set to '0.09' on schematic instance 'M20'
+but is '0.0416667' on layout instance 'M20'.
+INFO (LX-1005): Parameter 'nrd' is set to '0.09' on schematic instance 'M21'
+but is '0.16' on layout instance 'M21'.
+INFO (LX-1005): Parameter 'nrd' is set to '0.18' on schematic instance 'M11'
+but is '0.04' on layout instance 'M11'.
+INFO (LX-1005): Parameter 'nrd' is set to '0.18' on schematic instance 'M16'
+but is '0.0833333' on layout instance 'M16'.
+INFO (LX-1005): Parameter 'nrd' is set to '0.18' on schematic instance 'M18'
+but is '0.0833333' on layout instance 'M18'.
+INFO (LX-1005): Parameter 'nrd' is set to '0.18' on schematic instance 'M19'
+but is '0.32' on layout instance 'M19'.
+INFO (LX-1005): Parameter 'nrs' is set to '0.09' on schematic instance 'M13'
+but is '0.16' on layout instance 'M13'.
+INFO (LX-1005): Parameter 'nrs' is set to '0.09' on schematic instance 'M14'
+but is '0.0416667' on layout instance 'M14'.
+INFO (LX-1005): Parameter 'nrs' is set to '0.09' on schematic instance 'M15'
+but is '0.02' on layout instance 'M15'.
+INFO (LX-1005): Parameter 'nrs' is set to '0.09' on schematic instance 'M21'
+but is '0.0416667' on layout instance 'M21'.
+INFO (LX-1005): Parameter 'nrs' is set to '0.18' on schematic instance 'M11'
+but is '0.0833333' on layout instance 'M11'.
+INFO (LX-1005): Parameter 'nrs' is set to '0.18' on schematic instance 'M17'
+but is '0.32' on layout instance 'M17'.
+INFO (LX-1005): Parameter 'nrs' is set to '0.18' on schematic instance 'M18'
+but is '0.04' on layout instance 'M18'.
+INFO (LX-1005): Parameter 'nrs' is set to '0.18' on schematic instance 'M19'
+but is '0.0833333' on layout instance 'M19'.
+INFO (LX-1005): Parameter 'pd' is set to '3.96u' on schematic instance 'M11'
+but is '3.12u' on layout instance 'M11'.
+INFO (LX-1005): Parameter 'pd' is set to '3.96u' on schematic instance 'M16'
+but is '3.25u' on layout instance 'M16'.
+INFO (LX-1005): Parameter 'pd' is set to '3.96u' on schematic instance 'M18'
+but is '3.25u' on layout instance 'M18'.
+INFO (LX-1005): Parameter 'pd' is set to '6.96u' on schematic instance 'M14'
+but is '6.12u' on layout instance 'M14'.
+INFO (LX-1005): Parameter 'pd' is set to '6.96u' on schematic instance 'M15'
+but is '6.25u' on layout instance 'M15'.
+INFO (LX-1005): Parameter 'pd' is set to '6.96u' on schematic instance 'M20'
+but is '6.25u' on layout instance 'M20'.
+INFO (LX-1005): Parameter 'ps' is set to '3.96u' on schematic instance 'M11'
+but is '3.25u' on layout instance 'M11'.
+INFO (LX-1005): Parameter 'ps' is set to '3.96u' on schematic instance 'M18'
+but is '3.12u' on layout instance 'M18'.
+INFO (LX-1005): Parameter 'ps' is set to '3.96u' on schematic instance 'M19'
+but is '3.25u' on layout instance 'M19'.
+INFO (LX-1005): Parameter 'ps' is set to '6.96u' on schematic instance 'M14'
+but is '6.25u' on layout instance 'M14'.
+INFO (LX-1005): Parameter 'ps' is set to '6.96u' on schematic instance 'M15'
+but is '6.12u' on layout instance 'M15'.
+INFO (LX-1005): Parameter 'ps' is set to '6.96u' on schematic instance 'M21'
+but is '6.25u' on layout instance 'M21'.
+INFO (LX-1005): Parameter 'rightShape' is set to 'normal' on schematic instance 'M11'
+but is 'sameExt' on layout instance 'M11'.
+INFO (LX-1005): Parameter 'rightShape' is set to 'normal' on schematic instance 'M14'
+but is 'sameExt' on layout instance 'M14'.
+INFO (LX-1005): Parameter 'rightShape' is set to 'normal' on schematic instance 'M15'
+but is 'same' on layout instance 'M15'.
+INFO (LX-1005): Parameter 'rightShape' is set to 'normal' on schematic instance 'M16'
+but is 'same' on layout instance 'M16'.
+INFO (LX-1005): Parameter 'rightShape' is set to 'normal' on schematic instance 'M18'
+but is 'same' on layout instance 'M18'.
+INFO (LX-1005): Parameter 'rightShape' is set to 'normal' on schematic instance 'M19'
+but is 'largeExt' on layout instance 'M19'.
+INFO (LX-1005): Parameter 'rightShape' is set to 'normal' on schematic instance 'M20'
+but is 'same' on layout instance 'M20'.
+INFO (LX-1005): Parameter 'rightShape' is set to 'normal' on schematic instance 'M21'
+but is 'largeExt' on layout instance 'M21'.
+INFO (LX-1005): Parameter 'sa' is set to '480n' on schematic instance 'M11'
+but is '60n' on layout instance 'M11'.
+INFO (LX-1005): Parameter 'sa' is set to '480n' on schematic instance 'M14'
+but is '60n' on layout instance 'M14'.
+INFO (LX-1005): Parameter 'sa' is set to '480n' on schematic instance 'M15'
+but is '125n' on layout instance 'M15'.
+INFO (LX-1005): Parameter 'sa' is set to '480n' on schematic instance 'M16'
+but is '125n' on layout instance 'M16'.
+INFO (LX-1005): Parameter 'sa' is set to '480n' on schematic instance 'M18'
+but is '125n' on layout instance 'M18'.
+INFO (LX-1005): Parameter 'sa' is set to '480n' on schematic instance 'M20'
+but is '125n' on layout instance 'M20'.
+INFO (LX-1005): Parameter 'sb' is set to '480n' on schematic instance 'M11'
+but is '125n' on layout instance 'M11'.
+INFO (LX-1005): Parameter 'sb' is set to '480n' on schematic instance 'M14'
+but is '125n' on layout instance 'M14'.
+INFO (LX-1005): Parameter 'sb' is set to '480n' on schematic instance 'M15'
+but is '60n' on layout instance 'M15'.
+INFO (LX-1005): Parameter 'sb' is set to '480n' on schematic instance 'M18'
+but is '60n' on layout instance 'M18'.
+INFO (LX-1005): Parameter 'sb' is set to '480n' on schematic instance 'M19'
+but is '125n' on layout instance 'M19'.
+INFO (LX-1005): Parameter 'sb' is set to '480n' on schematic instance 'M21'
+but is '125n' on layout instance 'M21'.
+
+*** Check Against Source complete. ***
+

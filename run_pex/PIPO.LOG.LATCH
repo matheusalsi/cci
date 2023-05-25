@@ -1,0 +1,72 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version 6.1.8-64b 10/01/2018 19:51 (ip-172-18-22-52) $
+          : sub-version  IC6.1.8-64b.83 
+Started at: 24-Sep-2022  06:06:13
+User Name : matheus.almeida
+Host Name : pgmicro04
+Directory : /home/INF01185/matheus.almeida/cci
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+INFO (XSTRM-217): Reading the layer map file, /pdk/tsmc/TSMC180/180/CMOS/G/IO3.3V/pdk/T-018-CM-SP-018-K3_1_0a_bsim4.5_pdk_IC61_20100730/tsmc180_pdk/tsmc18/tsmc18.layermap
+INFO (XSTRM-162): You have not used the viaMap option. If the OpenAccess design has native oaVia instances, use the -viaMap option for preserving oaVia instances in a Stream Out - Stream In round trip. Using the -viaMap option improves performance and VM usage of applications using the Streamed-In design.  For details on the viaMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+
+Summary of Options :
+library                                 CCI
+strmFile                                /home/INF01185/matheus.almeida/cci/run_pex/LATCH.calibre.db
+topCell                                 LATCH
+view                                    layout
+runDir                                  /home/INF01185/matheus.almeida/cci/run_pex/
+logFile                                 PIPO.LOG.LATCH
+summaryFile                             PIPO.SUM.LATCH
+layerMap                                /pdk/tsmc/TSMC180/180/CMOS/G/IO3.3V/pdk/T-018-CM-SP-018-K3_1_0a_bsim4.5_pdk_IC61_20100730/tsmc180_pdk/tsmc18/tsmc18.layermap
+case                                    Preserve
+convertDot                              node
+
+INFO (XSTRM-223): 1. Translating cellView tsmc18/M1_NACTIVE/layout as STRUCTURE M1_NACTIVE_CDNS_664013973360.
+INFO (XSTRM-223): 2. Translating cellView tsmc18/M1_PACTIVE/layout as STRUCTURE M1_PACTIVE_CDNS_664013973361.
+INFO (XSTRM-223): 3. Translating cellView tsmc18/M1_POLY1/layout as STRUCTURE M1_POLY1_CDNS_664013973362.
+INFO (XSTRM-223): 4. Translating cellView tsmc18/nmos2v/layout as STRUCTURE nmos2v_CDNS_664013973360.
+WARNING (XSTRM-35): The objects in the layer-purpose pair 'text:drawing' are ignored. This is because the layer-purpose pair used in the design is not specified in the layer map file. Specify the layer-purpose pair in the layer map file and try again.
+WARNING (XSTRM-35): The objects in the layer-purpose pair 'instance:drawing' are ignored. This is because the layer-purpose pair used in the design is not specified in the layer map file. Specify the layer-purpose pair in the layer map file and try again.
+INFO (XSTRM-223): 5. Translating cellView tsmc18/nmos2v/layout as STRUCTURE nmos2v_CDNS_664013973361.
+INFO (XSTRM-223): 6. Translating cellView tsmc18/pmos2v/layout as STRUCTURE pmos2v_CDNS_664013973362.
+INFO (XSTRM-223): 7. Translating cellView tsmc18/pmos2v/layout as STRUCTURE pmos2v_CDNS_664013973363.
+INFO (XSTRM-223): 8. Translating cellView tsmc18/pmos2v/layout as STRUCTURE pmos2v_CDNS_664013973364.
+INFO (XSTRM-223): 9. Translating cellView tsmc18/pmos2v/layout as STRUCTURE pmos2v_CDNS_664013973365.
+INFO (XSTRM-223): 10. Translating cellView tsmc18/nmos2v/layout as STRUCTURE nmos2v_CDNS_664013973366.
+INFO (XSTRM-223): 11. Translating cellView tsmc18/pmos2v/layout as STRUCTURE pmos2v_CDNS_664013973367.
+INFO (XSTRM-223): 12. Translating cellView tsmc18/nmos2v/layout as STRUCTURE nmos2v_CDNS_664013973368.
+INFO (XSTRM-223): 13. Translating cellView tsmc18/nmos2v/layout as STRUCTURE nmos2v_CDNS_664013973369.
+INFO (XSTRM-223): 14. Translating cellView CCI/LATCH/layout as STRUCTURE LATCH.
+INFO (XSTRM-180): You have not used the objectMap option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the objectMap option to translate/preserve these objects using XStream. For details on the objectMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+
+Summary of Objects Translated:
+	Scalar Instances:                       10
+	Array Instances:                        0
+	Polygons:                               0
+	Paths:                                  0
+	Rectangles:                             169
+	Lines:                                  0
+	Arcs:                                   0
+	Donuts:                                 0
+	Dots:                                   0
+	Ellipses:                               0
+	Boundaries:                             0
+	Area Blockages:                         0
+	Layer Blockages:                        0
+	Area Halos:                             0
+	Markers:                                0
+	Rows:                                   0
+	Standard Vias                           10
+	Custom Vias:                            0
+	CdsGen Vias:                            0
+	Pathsegs:                               50
+	Text:                                   76
+	TextDisplay:                            0
+	Cells:                                  14
+
+Elapsed Time: 11.1s   User Time: 0.4s   CPU Time: 0.2s   Peak VM: 30068KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '2' warning(s) found.

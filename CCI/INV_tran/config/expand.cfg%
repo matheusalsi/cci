@@ -1,0 +1,21 @@
+//Revision 5
+//NOTE
+// Default template for spectre
+// Note:
+//      Please remember to replace Top Cell Library, Cell, and View
+//      fields with the actual names used by your design.
+//END_NOTE
+
+config INV_tran;
+design CCI.INV_tran:schematic;
+liblist myLib;
+
+viewlist spectre, cmos_sch, \cmos.sch , schematic, veriloga, ahdl, pspice, dspf;
+stoplist spectre;
+
+
+cell CCI.INV binding :calibre;
+cell CCI.INV2 binding :calibre;
+
+
+endconfig

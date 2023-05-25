@@ -1,0 +1,20 @@
+//Revision 1
+//NOTE
+// Default template for spectre
+// Note:
+//      Please remember to replace Top Cell Library, Cell, and View
+//      fields with the actual names used by your design.
+//END_NOTE
+
+config MirrorAdder4b_tran;
+design CCI.MirrorAdder4b_tran:schematic;
+liblist myLib;
+
+viewlist spectre, cmos_sch, \cmos.sch , schematic, veriloga, ahdl, pspice, dspf;
+stoplist spectre;
+
+
+cell CCI.\4bitMirrorAdder  binding :calibre;
+
+
+endconfig

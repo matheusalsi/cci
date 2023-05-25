@@ -1,0 +1,9 @@
+CADENCE IHNL11140
+$model
+CCI/MirrorAdder/schematic MirrorAdder
+CCI/4bitMirrorAdder/schematic 4bitMirrorAdder
+$endmodel
+$net
+$endnet
+$param
+$endparam

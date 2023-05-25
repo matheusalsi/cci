@@ -1,0 +1,29 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  CCI
+* Top Cell Name: INV2
+* View Name:     schematic
+* Netlisted on:  Sep 10 23:58:28 2022
+************************************************************************
+
+.INCLUDE  /pdk/tsmc/TSMC180/180/CMOS/G/IO3.3V/pdk/T-018-CM-SP-018-K3_1_0a_bsim4.5_pdk_IC61_20100730/tsmc180_pdk/tsmc18/../Calibre/lvs/source.added
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: CCI
+* Cell Name:    INV2
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT INV2 GND IN OUT VDD
+*.PININFO IN:I OUT:O GND:B VDD:B
+MM0 OUT IN VDD VDD P l=180.0n w=1u m=1
+MM1 OUT IN GND GND N l=180.0n w=1u m=1
+.ENDS
+

@@ -1,0 +1,21 @@
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.03s.
+
+*Error* eval: undefined function - _lbuiNextLicenseDialog
+
+*WARNING* LIB analogLib from File /pdk/tsmc/TSMC180/180/CMOS/G/IO3.3V/pdk/T-018-CM-SP-018-K3_1_0a_bsim4.5_pdk_IC61_20100730/tsmc180_pdk/cds.lib Line 13 redefines
+LIB analogLib from the same file (defined earlier.)
+
+*WARNING* LIB analogLib from File /pdk/tsmc/TSMC180/180/CMOS/G/IO3.3V/pdk/T-018-CM-SP-018-K3_1_0a_bsim4.5_pdk_IC61_20100730/tsmc180_pdk/cds.lib Line 13 redefines
+LIB analogLib from the same file (defined earlier.)
+
+Initializing from libInit.il for library tsmc18...
+   --  pcell18v1a.cdn
+   --  tsmc18_updateCDFs.ile
+   --  tsmc18.cxt
+Loading Working place Display File '/home/INF01185/matheus.almeida/cci/display.drf'
+
+Running Artist Hierarchical Netlisting ...
+
+Loading cdf.cxt 
+End netlisting Oct  2 10:50:06 2022
+

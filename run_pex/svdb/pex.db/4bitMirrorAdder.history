@@ -1,0 +1,8 @@
+//OK 
+//NUMBER_OF_HEADER_LINES: 6
+//VERSION: 1
+//TOKEN_DELIMITER: "
+//TOKEN_SEPARATOR: " "
+//FORMAT: "time" "calibre version" "command line"
+"Sun Oct  2 10:53:47 2022 " "v2018.4_34.26" "-xrc -pdb -rcc -turbo 1 /home/INF01185/matheus.almeida/cci/run_pex/_calibre.rcx_"
+"Sun Oct  2 10:53:50 2022 " "v2018.4_34.26" "-xrc -fmt -all /home/INF01185/matheus.almeida/cci/run_pex/_calibre.rcx_"

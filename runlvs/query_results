@@ -1,0 +1,9 @@
+mgc_rve_context_lcv "CCI" "MirrorAdder" "layout" 1000
+mgc_rve_highlight_index 0 "9" "#FFFF00000000"
+mgc_rve_layer "tpdiff"
+mr 15.315 -16.3 15.855 -11.8
+mgc_rve_layer "metal1"
+mr 15.47 -23.147 15.7 -11.84
+mgc_rve_layer "tndiff"
+mr 15.315 -23.187 15.855 -20.337
+mgc_rve_zoom 15.2 -25.627 15.97 -9.36 1
